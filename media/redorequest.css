@@ -1,0 +1,27 @@
+/* 
+    Document   : salesredorequest
+    Created on : Aug 12, 2013, 11:45:11 AM
+    Author     : robbie
+    Description:
+        
+*/
+
+.form-horizontal .control-group {
+    margin-bottom: 10px;
+    /*if help block is in use 8 Tightens up the space inbetween fields*/
+}
+.hiddenOnLoad {
+    display: None;
+    /*when form loads hides objects*/
+}
+
+/*#partial 
+{
+    width: 700px; 
+    margin-top: -300px !important;
+    margin-left:  -350px !important; 
+} */
+
+/*#partial .modal-body {
+    max-height: 600px;
+}*/

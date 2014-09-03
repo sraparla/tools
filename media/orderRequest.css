@@ -1,0 +1,185 @@
+  body { padding-top: 10px; }
+ .row {
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+  }
+ .form-horizontal .form-group {
+    margin-bottom: 5px;
+    /*if help block is in use 8 Tightens up the space inbetween fields*/
+  }
+ .error {
+     color:red;
+  }
+
+    /* ===== == = === 81.25em (1300px) === = == ===== */
+
+    @media only screen and (max-width : 2400px) {
+        .twitter-typeahead{
+            width: 380px;
+        }
+        .twitter-typeahead .tt-hint{
+            width: 380px;
+        }
+        
+        .tt-dropdown-menu {
+        /*  min-width: 160px;*/
+        min-width: 380px; 
+        }
+        
+    }
+
+    /* ===== == = === 81.25em (1300px) === = == ===== */
+
+    @media only screen and (max-width : 81.25em) {
+        .twitter-typeahead{
+            width: 360px;
+        }
+        .twitter-typeahead .tt-hint{
+            width: 360px;
+        }
+        .tt-dropdown-menu {
+        /*  min-width: 160px;*/
+        min-width: 360px; 
+        }
+
+    }
+
+    /* ===== == = === 68.75em (1100px) === = == ===== */
+
+    @media only screen and (max-width : 68.75em) {
+        .twitter-typeahead{
+            width: 340px;
+        }
+        .twitter-typeahead .tt-hint{
+            width: 340px;
+        }
+        .tt-dropdown-menu {
+        /*  min-width: 160px;*/
+        min-width: 340px; 
+        }
+    }
+
+    /* ===== == = === 56.25em (900px) === = == ===== */
+
+    @media only screen and (max-width : 56.25em) {
+         .twitter-typeahead{
+            width: 300px;
+        }
+        .twitter-typeahead .tt-hint{
+            width: 300px;
+        }
+        .tt-dropdown-menu {
+        /*  min-width: 160px;*/
+        min-width: 300px; 
+        }
+
+
+    }
+    /* ===== == = === 48em (768px) === = == ===== */
+
+    @media only screen and (max-width : 48em) {
+          .twitter-typeahead{
+            width: 680px;
+        }
+        .twitter-typeahead .tt-hint{
+            width: 680px;
+        }
+        .tt-dropdown-menu {
+        /*  min-width: 160px;*/
+        min-width: 680px; 
+        }
+
+    }
+
+    /* ===== == = === 37.5em (600px) === = == ===== */
+
+    @media only screen and (max-width: 714px) {
+           .twitter-typeahead{
+            width: 660px;
+        }
+        .twitter-typeahead .tt-hint{
+            width: 660px;
+        }
+        .tt-dropdown-menu {
+        /*  min-width: 160px;*/
+        min-width: 660px; 
+        }
+
+    }
+    @media only screen and (min-width: 654px) and (max-width: 700px) {
+           .twitter-typeahead{
+            width: 650px;
+        }
+        .twitter-typeahead .tt-hint{
+            width: 650px;
+        }
+         .tt-dropdown-menu {
+        /*  min-width: 160px;*/
+        min-width: 650px; 
+        }
+
+    }
+    /* ===== == = === 30em (480px) === = == ===== */
+
+    @media only screen and (min-width: 580px) and (max-width: 650px) {
+              .twitter-typeahead{
+            width: 520px;
+        }
+        .twitter-typeahead .tt-hint{
+            width: 520px;
+        }
+         .tt-dropdown-menu {
+        /*  min-width: 160px;*/
+        min-width: 520px; 
+        }
+
+    }
+
+    /* ===== == = === 30em (480px) === = == ===== */
+
+    @media only screen and (min-width: 480px) and (max-width: 580px) {
+              .twitter-typeahead{
+            width: 480px;
+        }
+        .twitter-typeahead .tt-hint{
+            width: 480px;
+        }
+         .tt-dropdown-menu {
+        /*  min-width: 160px;*/
+        min-width: 480px; 
+        }
+
+    }
+    @media only screen and (min-width: 360px) and (max-width: 430px) {
+              .twitter-typeahead{
+            width: 360px;
+        }
+        .twitter-typeahead .tt-hint{
+            width: 360px;
+        }
+         .tt-dropdown-menu {
+        /*  min-width: 160px;*/
+        min-width: 360px; 
+        }
+        
+
+    }
+
+    /* ===== == = === 20em (320px) === = == ===== */
+
+    @media only screen and (max-width : 20em) {
+             .twitter-typeahead{
+            width: 260px;
+        }
+        .twitter-typeahead .tt-hint{
+            width: 260px;
+        }
+        .tt-dropdown-menu {
+        /*  min-width: 160px;*/
+        min-width: 260px; 
+        }
+    }
+
+
+

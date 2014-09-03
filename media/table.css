@@ -1,0 +1,77 @@
+/* 
+    Document   : table
+    Created on : May 10, 2013, 12:43:04 PM
+    Author     : robbie
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* ===== == = === Base Styles === = == ===== */
+/*   #customMap {
+	width: 300px;
+	height: 200px;
+    }*/
+
+
+/* ===== == = === 81.25em (1300px) === = == ===== */
+
+@media only screen and (max-width : 81.25em) {
+
+}
+
+/* ===== == = === 68.75em (1100px) === = == ===== */
+
+@media only screen and (max-width : 68.75em) {
+}
+
+/* ===== == = === 56.25em (900px) === = == ===== */
+
+@media only screen and (max-width : 56.25em) {
+    	table td:nth-child(9), 
+	table th:nth-child(9) {display: none;}
+        
+}
+/* ===== == = === 48em (768px) === = == ===== */
+
+@media only screen and (max-width : 48em) {
+	table td:nth-child(6), 
+	table th:nth-child(6) {display: none;}
+}
+ 
+/* ===== == = === 37.5em (600px) === = == ===== */
+
+@media only screen and (max-width: 37.5em) {
+	table td:nth-child(4),
+	table th:nth-child(4),
+	table td:nth-child(7),
+	table th:nth-child(7),
+	table td:nth-child(8),
+	table th:nth-child(8){display: none;}
+}
+
+/* ===== == = === 30em (480px) === = == ===== */
+
+@media only screen and (max-width : 30em) {
+        table td:nth-child(5), 
+	table th:nth-child(5) {display: none;}
+        #mytable_length{display: none;}
+        #advancedfind{display: none;}
+        /*#mytable_info{display: none;}*/
+/*        #customMap {
+	width: 200px;
+	height: 200px;
+    }*/
+
+}
+
+/* ===== == = === 20em (320px) === = == ===== */
+
+@media only screen and (max-width : 20em) {
+}
+
+
+
+
+
+
+

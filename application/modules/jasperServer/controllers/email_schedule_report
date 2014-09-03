@@ -1,0 +1,6 @@
+rm /var/www/html/jasperSoap/scheduleReport/SCHEDULE.XLS
+wget -O /var/www/html/jasperSoap/scheduleReport/SCHEDULE.xls "http://jasper.indyimaging.com:8080/jasperserver/flow.html?_flowId=viewReportFlow&standAlone=true&_flowId=viewReportFlow&ParentFolderUri=%2Freports%2FindyImagingReports&reportUnit=%2Freports%2FindyImagingReports%2FSchedule_Report&j_username=joeuser&j_password=joeuser&output=xls"
+# /usr/bin/php /var/www/html/jasperSoap/src/index.php
+sleep 50
+/usr/bin/php /var/www/html/apps/index.php jasperServer/jasperservercontroller scheduleReportSendEmail
+touch /root/last_run
